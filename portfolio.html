@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Maria Saavedra</title>
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -43,51 +44,89 @@
     </div>
   </header>
 
+<div class="row">
   <div id="main-container" class="container">
+    <div class="col-md-8">
     <section class="main-section">
       <h1>Portfolio</h1>
-
+      <div class="row">
+      <!-- wrapping the pics in a row --> 
+      <div class="col-md-3 col-sm-4 col-xs-6">
       <div class="work">
-        <img src="assets/images/cc-1.jpg" alt="hangman">
-
+        <a href="#">
+        <img src="assets/images/cc-1.jpg" class="img-responsive" alt="hangman">
         <h3>Hangman</h3>
+        </a>
       </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
       <div class="work">
-        <img src="assets/images/cc-2.jpg" alt="RPG Game">
-
+        <a href="#">
+        <img src="assets/images/cc-2.jpg" class="img-responsive" alt="RPG Game">
         <h3>RPG Game</h3>
+        </a>
       </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
       <div class="work">
-        <img src="assets/images/cc-3.jpg" alt="Trivia Game">
-
+        <a href="#">
+        <img src="assets/images/cc-3.jpg" class="img-responsive" alt="Trivia Game">
         <h3>Trivia Game</h3>
+        </a>
       </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
       <div class="work">
-        <img src="assets/images/cc-4.jpg" alt="Rutgers Info Widget">
+        <a href="#">
+        <img src="assets/images/cc-4.jpg" class="img-responsive" alt="Rutgers Info Widget">
 
         <h3>Rutgers Info Widget</h3>
+        </a>
       </div>
+      </div>
+      <div class="col-md-3 col-sm-4 col-xs-6">
       <div class="work">
-        <img src="assets/images/cc.jpg" alt="Rock Paper Scissors">
+        <a href="#">
+        <img src="assets/images/cc.jpg" class="img-responsive" alt="Rock Paper Scissors">
 
         <h3>Rock Paper Scissors</h3>
+        </a>
       </div>
-
+      </div>
+      <!-- End of wrapping pics in row -->
+      </div>
     </section>
+    </div>
 
-    <!-- panel code from bootstrap -->
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h3 class="panel-title">Connet With Me</h3>
+
+
+      <!-- Side bar panel -->
+    <div class="col-md-4">
+      <div class="panel panel-default sidepanel">
+        <div class="panel-heading">
+        <h3 class="panel-title">Connet With Me</h3>
+        </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-4 col-xs-4">
+                <a href="#">
+                  <img src="assets/images/github.png" class="img-responsive" alt="GitHub" ></a>
+              </div>
+              <div class="col-md-4 col-xs-4">
+                <a href="#">
+                  <img src="assets/images/linkedin.png" class="img-responsive" alt="LinkedIn" ></a>
+              </div>
+              <div class="col-md-4 col-xs-4">
+                <a href="#">
+                  <img src="assets/images/stackoverflow.png" class="img-responsive" alt="Stack Overflow" ></a>
+              </div>
+            </div>
+          </div> 
+      </div>
     </div>
-    <div class="panel-body">
-          <a href="#"><img src="assets/images/github.png" class="social" alt="GitHub" ></a>
-          <a href="#"><img src="assets/images/linkedin.png" class="social" alt="LinkedIn" ></a>
-          <a href="#"><img src="assets/images/stackoverflow.png" class="social" alt="Stack Overflow" ></a>
-    </div>
+    <!-- End of sidebar panel -->
   </div>
-    <!-- end of panel code from bootstrap -->
-  </div>
+</div>
 
   <footer>
     <div class="container">

@@ -1,8 +1,55 @@
-.social {
-	width: 85px ;
-	height: auto;
+
+
+body {
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	color: #000080;
+	background: url(file:///Users/mariasaavedra/Desktop/bootstrap-portfolio/assets/images/marscover.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
 }
-#mars {
-	/*width: 170px;
-	height: auto;*/
+html {
+  width: 100%;
+  height: 100%;
 }
+
+h1 {
+	text-align: center;
+}
+
+p {
+  margin: 0 0 25px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+
+.navbar {
+	background-color:#D2B48C; 
+}
+.sidepanel {
+	background-color: #D2B48C; 
+}
+
+#contact_form {
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+footer {
+	height: 50px;
+	font-size: 17px;
+	margin-top: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	background-color: #D2B48C;
+	border-top:solid 7px white;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+
+
+
